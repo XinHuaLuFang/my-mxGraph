@@ -15,3 +15,9 @@
     * __value__ – this is the user object of the cell. User object are simply that, just objects, but form the objects that allow you to associate the business logic of an application with the visual representation of mxGraph. They will be described in more detail later in this manual, however, to start with if you use a string as the user object, this will be displayed as the label on the vertex or edge.
     * __x, y, width, height__ – as the names suggest, these are the x and y position of the top left corner of the vertex and its width and height.
     * __style__ – the style description to be applied to this vertex. Styles will be described in more detail shortly, but at a simple level this parameter is a string that follows a particular format. In the string appears zero or more style names and some number of key/value pairs that override the global style or set a new style. Until we create custom styles, we will just use those currently available.
+
+### API
+1. __IO__
+    IO包中实现了类__mxObjectCodec__,这个类可以把JavasScript对象转为XML。
+    IO包中主要的类是__mxCodec__
+2. aa
